@@ -1,0 +1,813 @@
+2014-10-11 22:42:35,421 - [INFO] - from play in pool-6-thread-4 
+Listening for HTTP on /0:0:0:0:0:0:0:0:9000
+
+2014-10-11 22:44:41,309 - [INFO] - from play in play-internal-execution-context-1 
+database [default] connected at jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true
+
+2014-10-11 22:44:42,051 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2014-10-11 22:48:32,362 - [INFO] - from play in play-internal-execution-context-1 
+database [default] connected at jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true
+
+2014-10-11 22:48:33,100 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2014-10-11 22:53:53,707 - [INFO] - from play in play-internal-execution-context-1 
+database [default] connected at jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true
+
+2014-10-11 22:53:54,411 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2014-10-11 23:06:46,923 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 10. Exception: java.net.UnknownHostException: us-cdbr-iron-east-01.cleardb.net: nodename nor servname provided, or not known.Message:Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+
+2014-10-11 23:06:47,927 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 9. Exception: java.net.UnknownHostException: us-cdbr-iron-east-01.cleardb.net.Message:Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+
+2014-10-11 23:06:48,931 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 8. Exception: java.net.UnknownHostException: us-cdbr-iron-east-01.cleardb.net.Message:Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+
+2014-10-11 23:06:49,935 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 7. Exception: java.net.UnknownHostException: us-cdbr-iron-east-01.cleardb.net.Message:Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+
+2014-10-11 23:06:50,940 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 6. Exception: java.net.UnknownHostException: us-cdbr-iron-east-01.cleardb.net.Message:Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+
+2014-10-11 23:06:51,944 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 5. Exception: java.net.UnknownHostException: us-cdbr-iron-east-01.cleardb.net.Message:Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+
+2014-10-11 23:06:52,948 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 4. Exception: java.net.UnknownHostException: us-cdbr-iron-east-01.cleardb.net.Message:Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+
+2014-10-11 23:06:53,953 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 3. Exception: java.net.UnknownHostException: us-cdbr-iron-east-01.cleardb.net.Message:Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+
+2014-10-11 23:06:54,959 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 2. Exception: java.net.UnknownHostException: us-cdbr-iron-east-01.cleardb.net.Message:Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+
+2014-10-11 23:06:55,962 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 1. Exception: java.net.UnknownHostException: us-cdbr-iron-east-01.cleardb.net.Message:Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+
+2014-10-11 23:06:56,964 - [ERROR] - from com.jolbox.bonecp.ConnectionHandle in BoneCP-pool-watch-thread 
+Database access problem. Killing off this connection and all remaining connections in the connection pool. SQL State = 08S01
+
+2014-10-11 23:06:56,970 - [ERROR] - from com.jolbox.bonecp.PoolWatchThread in BoneCP-pool-watch-thread 
+Error in trying to obtain a connection. Retrying in 1000ms
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.7.0_60]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526) ~[na:1.7.0_60]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:408) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1137) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:355) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2490) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2527) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2309) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:834) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46) ~[mysql-connector-java-5.1.32.jar:na]
+	at sun.reflect.GeneratedConstructorAccessor8.newInstance(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.7.0_60]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526) ~[na:1.7.0_60]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:408) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:419) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:344) ~[mysql-connector-java-5.1.32.jar:na]
+	at play.utils.ProxyDriver.connect(ProxyDriver.scala:9) ~[play_2.10.jar:2.2.3]
+	at java.sql.DriverManager.getConnection(DriverManager.java:571) ~[na:1.7.0_60]
+	at java.sql.DriverManager.getConnection(DriverManager.java:215) ~[na:1.7.0_60]
+	at com.jolbox.bonecp.BoneCP.obtainRawInternalConnection(BoneCP.java:363) ~[bonecp.jar:na]
+	at com.jolbox.bonecp.BoneCP.obtainInternalConnection(BoneCP.java:269) ~[bonecp.jar:na]
+	at com.jolbox.bonecp.ConnectionHandle.<init>(ConnectionHandle.java:242) ~[bonecp.jar:na]
+	at com.jolbox.bonecp.PoolWatchThread.fillConnections(PoolWatchThread.java:115) [bonecp.jar:na]
+	at com.jolbox.bonecp.PoolWatchThread.run(PoolWatchThread.java:82) [bonecp.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_60]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_60]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_60]
+Caused by: java.net.UnknownHostException: us-cdbr-iron-east-01.cleardb.net
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1250) ~[na:1.7.0_60]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1162) ~[na:1.7.0_60]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1098) ~[na:1.7.0_60]
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:250) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:305) ~[mysql-connector-java-5.1.32.jar:na]
+	... 22 common frames omitted
+
+2014-10-11 23:47:23,696 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 10. Exception: null.Message:User 'b9ebdfdeb331ee' has exceeded the 'max_user_connections' resource (current value: 10)
+
+2014-10-11 23:47:25,232 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 9. Exception: null.Message:User 'b9ebdfdeb331ee' has exceeded the 'max_user_connections' resource (current value: 10)
+
+2014-10-11 23:47:26,767 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 8. Exception: null.Message:User 'b9ebdfdeb331ee' has exceeded the 'max_user_connections' resource (current value: 10)
+
+2014-10-11 23:47:28,325 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 7. Exception: null.Message:User 'b9ebdfdeb331ee' has exceeded the 'max_user_connections' resource (current value: 10)
+
+2014-10-11 23:47:29,856 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 6. Exception: null.Message:User 'b9ebdfdeb331ee' has exceeded the 'max_user_connections' resource (current value: 10)
+
+2014-10-11 23:47:31,400 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 5. Exception: null.Message:User 'b9ebdfdeb331ee' has exceeded the 'max_user_connections' resource (current value: 10)
+
+2014-10-11 23:47:32,954 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 4. Exception: null.Message:User 'b9ebdfdeb331ee' has exceeded the 'max_user_connections' resource (current value: 10)
+
+2014-10-11 23:47:34,494 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 3. Exception: null.Message:User 'b9ebdfdeb331ee' has exceeded the 'max_user_connections' resource (current value: 10)
+
+2014-10-11 23:47:36,035 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 2. Exception: null.Message:User 'b9ebdfdeb331ee' has exceeded the 'max_user_connections' resource (current value: 10)
+
+2014-10-11 23:47:37,611 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 1. Exception: null.Message:User 'b9ebdfdeb331ee' has exceeded the 'max_user_connections' resource (current value: 10)
+
+2014-10-11 23:47:38,613 - [ERROR] - from com.jolbox.bonecp.PoolWatchThread in BoneCP-pool-watch-thread 
+Error in trying to obtain a connection. Retrying in 1000ms
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: User 'b9ebdfdeb331ee' has exceeded the 'max_user_connections' resource (current value: 10)
+	at sun.reflect.GeneratedConstructorAccessor11.newInstance(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.7.0_60]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526) ~[na:1.7.0_60]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:408) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.Util.getInstance(Util.java:383) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1062) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4208) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4140) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:925) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1747) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1287) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2494) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2527) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2309) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:834) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46) ~[mysql-connector-java-5.1.32.jar:na]
+	at sun.reflect.GeneratedConstructorAccessor8.newInstance(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.7.0_60]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526) ~[na:1.7.0_60]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:408) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:419) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:344) ~[mysql-connector-java-5.1.32.jar:na]
+	at play.utils.ProxyDriver.connect(ProxyDriver.scala:9) ~[play_2.10.jar:2.2.3]
+	at java.sql.DriverManager.getConnection(DriverManager.java:571) ~[na:1.7.0_60]
+	at java.sql.DriverManager.getConnection(DriverManager.java:215) ~[na:1.7.0_60]
+	at com.jolbox.bonecp.BoneCP.obtainRawInternalConnection(BoneCP.java:363) ~[bonecp.jar:na]
+	at com.jolbox.bonecp.BoneCP.obtainInternalConnection(BoneCP.java:269) ~[bonecp.jar:na]
+	at com.jolbox.bonecp.ConnectionHandle.<init>(ConnectionHandle.java:242) ~[bonecp.jar:na]
+	at com.jolbox.bonecp.PoolWatchThread.fillConnections(PoolWatchThread.java:115) [bonecp.jar:na]
+	at com.jolbox.bonecp.PoolWatchThread.run(PoolWatchThread.java:85) [bonecp.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_60]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_60]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_60]
+
+2014-10-11 23:57:27,819 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 10. Exception: null.Message:User 'b9ebdfdeb331ee' has exceeded the 'max_user_connections' resource (current value: 10)
+
+2014-10-11 23:57:29,360 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 9. Exception: null.Message:User 'b9ebdfdeb331ee' has exceeded the 'max_user_connections' resource (current value: 10)
+
+2014-10-11 23:57:31,026 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 8. Exception: null.Message:User 'b9ebdfdeb331ee' has exceeded the 'max_user_connections' resource (current value: 10)
+
+2014-10-11 23:57:32,587 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 7. Exception: null.Message:User 'b9ebdfdeb331ee' has exceeded the 'max_user_connections' resource (current value: 10)
+
+2014-10-11 23:57:34,137 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 6. Exception: null.Message:User 'b9ebdfdeb331ee' has exceeded the 'max_user_connections' resource (current value: 10)
+
+2014-10-11 23:57:35,709 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 5. Exception: null.Message:User 'b9ebdfdeb331ee' has exceeded the 'max_user_connections' resource (current value: 10)
+
+2014-10-11 23:57:37,296 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 4. Exception: null.Message:User 'b9ebdfdeb331ee' has exceeded the 'max_user_connections' resource (current value: 10)
+
+2014-10-11 23:57:38,833 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 3. Exception: null.Message:User 'b9ebdfdeb331ee' has exceeded the 'max_user_connections' resource (current value: 10)
+
+2014-10-11 23:57:40,369 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 2. Exception: null.Message:User 'b9ebdfdeb331ee' has exceeded the 'max_user_connections' resource (current value: 10)
+
+2014-10-11 23:57:41,957 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 1. Exception: null.Message:User 'b9ebdfdeb331ee' has exceeded the 'max_user_connections' resource (current value: 10)
+
+2014-10-11 23:57:42,961 - [ERROR] - from com.jolbox.bonecp.PoolWatchThread in BoneCP-pool-watch-thread 
+Error in trying to obtain a connection. Retrying in 1000ms
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: User 'b9ebdfdeb331ee' has exceeded the 'max_user_connections' resource (current value: 10)
+	at sun.reflect.GeneratedConstructorAccessor11.newInstance(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.7.0_60]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526) ~[na:1.7.0_60]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:408) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.Util.getInstance(Util.java:383) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1062) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4208) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4140) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:925) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1747) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1287) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2494) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2527) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2309) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:834) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46) ~[mysql-connector-java-5.1.32.jar:na]
+	at sun.reflect.GeneratedConstructorAccessor8.newInstance(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.7.0_60]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526) ~[na:1.7.0_60]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:408) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:419) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:344) ~[mysql-connector-java-5.1.32.jar:na]
+	at play.utils.ProxyDriver.connect(ProxyDriver.scala:9) ~[play_2.10.jar:2.2.3]
+	at java.sql.DriverManager.getConnection(DriverManager.java:571) ~[na:1.7.0_60]
+	at java.sql.DriverManager.getConnection(DriverManager.java:215) ~[na:1.7.0_60]
+	at com.jolbox.bonecp.BoneCP.obtainRawInternalConnection(BoneCP.java:363) ~[bonecp.jar:na]
+	at com.jolbox.bonecp.BoneCP.obtainInternalConnection(BoneCP.java:269) ~[bonecp.jar:na]
+	at com.jolbox.bonecp.ConnectionHandle.<init>(ConnectionHandle.java:242) ~[bonecp.jar:na]
+	at com.jolbox.bonecp.PoolWatchThread.fillConnections(PoolWatchThread.java:115) [bonecp.jar:na]
+	at com.jolbox.bonecp.PoolWatchThread.run(PoolWatchThread.java:85) [bonecp.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_60]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_60]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_60]
+
+2014-10-12 01:09:16,804 - [INFO] - from play in play-internal-execution-context-1 
+database [default] connected at jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true
+
+2014-10-12 01:09:17,607 - [ERROR] - from application in New I/O worker #7 
+
+
+! @6joa3ndhf - Internal server error, for (POST) [/save] ->
+
+play.api.db.evolutions.InvalidDatabaseRevision: Database 'default' needs evolution![An SQL script need to be run on your database.]
+	at play.api.db.evolutions.EvolutionsPlugin$$anonfun$onStart$1$$anonfun$apply$1.apply$mcV$sp(Evolutions.scala:486) ~[play-jdbc_2.10.jar:2.2.3]
+	at play.api.db.evolutions.EvolutionsPlugin.withLock(Evolutions.scala:507) ~[play-jdbc_2.10.jar:2.2.3]
+	at play.api.db.evolutions.EvolutionsPlugin$$anonfun$onStart$1.apply(Evolutions.scala:461) ~[play-jdbc_2.10.jar:2.2.3]
+	at play.api.db.evolutions.EvolutionsPlugin$$anonfun$onStart$1.apply(Evolutions.scala:459) ~[play-jdbc_2.10.jar:2.2.3]
+	at scala.collection.immutable.List.foreach(List.scala:318) ~[scala-library-2.10.4.jar:na]
+	at play.api.db.evolutions.EvolutionsPlugin.onStart(Evolutions.scala:459) ~[play-jdbc_2.10.jar:2.2.3]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88) ~[play_2.10.jar:2.2.3]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88) ~[play_2.10.jar:2.2.3]
+	at scala.collection.immutable.List.foreach(List.scala:318) ~[scala-library-2.10.4.jar:na]
+	at play.api.Play$$anonfun$start$1.apply$mcV$sp(Play.scala:88) ~[play_2.10.jar:2.2.3]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:88) ~[play_2.10.jar:2.2.3]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:88) ~[play_2.10.jar:2.2.3]
+	at play.utils.Threads$.withContextClassLoader(Threads.scala:18) ~[play_2.10.jar:2.2.3]
+	at play.api.Play$.start(Play.scala:87) ~[play_2.10.jar:2.2.3]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:139) ~[play_2.10.jar:2.2.3]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:112) ~[play_2.10.jar:2.2.3]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.10.4.jar:na]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:112) ~[play_2.10.jar:2.2.3]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:110) ~[play_2.10.jar:2.2.3]
+	at scala.util.Success.flatMap(Try.scala:200) ~[scala-library-2.10.4.jar:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.10.jar:2.2.3]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:102) ~[play_2.10.jar:2.2.3]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.10.4.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.10.4.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.10.4.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.10.4.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.10.4.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.10.4.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.10.4.jar:na]
+
+2014-10-12 01:09:17,782 - [ERROR] - from application in New I/O worker #8 
+
+
+! @6joa3ndhf - Internal server error, for (GET) [/] ->
+
+play.api.db.evolutions.InvalidDatabaseRevision: Database 'default' needs evolution![An SQL script need to be run on your database.]
+	at play.api.db.evolutions.EvolutionsPlugin$$anonfun$onStart$1$$anonfun$apply$1.apply$mcV$sp(Evolutions.scala:486) ~[play-jdbc_2.10.jar:2.2.3]
+	at play.api.db.evolutions.EvolutionsPlugin.withLock(Evolutions.scala:507) ~[play-jdbc_2.10.jar:2.2.3]
+	at play.api.db.evolutions.EvolutionsPlugin$$anonfun$onStart$1.apply(Evolutions.scala:461) ~[play-jdbc_2.10.jar:2.2.3]
+	at play.api.db.evolutions.EvolutionsPlugin$$anonfun$onStart$1.apply(Evolutions.scala:459) ~[play-jdbc_2.10.jar:2.2.3]
+	at scala.collection.immutable.List.foreach(List.scala:318) ~[scala-library-2.10.4.jar:na]
+	at play.api.db.evolutions.EvolutionsPlugin.onStart(Evolutions.scala:459) ~[play-jdbc_2.10.jar:2.2.3]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88) ~[play_2.10.jar:2.2.3]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88) ~[play_2.10.jar:2.2.3]
+	at scala.collection.immutable.List.foreach(List.scala:318) ~[scala-library-2.10.4.jar:na]
+	at play.api.Play$$anonfun$start$1.apply$mcV$sp(Play.scala:88) ~[play_2.10.jar:2.2.3]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:88) ~[play_2.10.jar:2.2.3]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:88) ~[play_2.10.jar:2.2.3]
+	at play.utils.Threads$.withContextClassLoader(Threads.scala:18) ~[play_2.10.jar:2.2.3]
+	at play.api.Play$.start(Play.scala:87) ~[play_2.10.jar:2.2.3]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:139) ~[play_2.10.jar:2.2.3]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:112) ~[play_2.10.jar:2.2.3]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.10.4.jar:na]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:112) ~[play_2.10.jar:2.2.3]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:110) ~[play_2.10.jar:2.2.3]
+	at scala.util.Success.flatMap(Try.scala:200) ~[scala-library-2.10.4.jar:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.10.jar:2.2.3]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:102) ~[play_2.10.jar:2.2.3]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.10.4.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.10.4.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.10.4.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.10.4.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.10.4.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.10.4.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.10.4.jar:na]
+
+2014-10-12 01:09:30,563 - [INFO] - from play in play-internal-execution-context-1 
+database [default] connected at jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true
+
+2014-10-12 01:09:31,311 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2014-10-12 01:09:46,764 - [ERROR] - from play in play-akka.actor.default-dispatcher-13 
+Cannot invoke the action, eventually got an error: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'user_id' at row 1
+
+2014-10-12 01:09:46,780 - [ERROR] - from application in play-akka.actor.default-dispatcher-13 
+
+
+! @6joa3p4lg - Internal server error, for (POST) [/save] ->
+
+play.api.Application$$anon$1: Execution exception[[MysqlDataTruncation: Data truncation: Data too long for column 'user_id' at row 1]]
+	at play.api.Application$class.handleError(Application.scala:293) ~[play_2.10.jar:2.2.3]
+	at play.api.DefaultApplication.handleError(Application.scala:399) [play_2.10.jar:2.2.3]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3$$anonfun$applyOrElse$3.apply(PlayDefaultUpstreamHandler.scala:264) [play_2.10.jar:2.2.3]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3$$anonfun$applyOrElse$3.apply(PlayDefaultUpstreamHandler.scala:264) [play_2.10.jar:2.2.3]
+	at scala.Option.map(Option.scala:145) [scala-library-2.10.4.jar:na]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3.applyOrElse(PlayDefaultUpstreamHandler.scala:264) [play_2.10.jar:2.2.3]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3.applyOrElse(PlayDefaultUpstreamHandler.scala:260) [play_2.10.jar:2.2.3]
+	at scala.concurrent.Future$$anonfun$recoverWith$1.apply(Future.scala:344) [scala-library-2.10.4.jar:na]
+	at scala.concurrent.Future$$anonfun$recoverWith$1.apply(Future.scala:343) [scala-library-2.10.4.jar:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [scala-library-2.10.4.jar:na]
+	at play.api.libs.iteratee.Execution$$anon$1.execute(Execution.scala:43) [play-iteratees_2.10.jar:2.2.3]
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:40) [scala-library-2.10.4.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:248) [scala-library-2.10.4.jar:na]
+	at scala.concurrent.Promise$class.complete(Promise.scala:55) [scala-library-2.10.4.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:153) [scala-library-2.10.4.jar:na]
+	at scala.concurrent.Future$$anonfun$flatMap$1.apply(Future.scala:249) [scala-library-2.10.4.jar:na]
+	at scala.concurrent.Future$$anonfun$flatMap$1.apply(Future.scala:249) [scala-library-2.10.4.jar:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [scala-library-2.10.4.jar:na]
+	at play.api.libs.iteratee.Execution$$anon$2.execute(Execution.scala:70) [play-iteratees_2.10.jar:2.2.3]
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:40) [scala-library-2.10.4.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:248) [scala-library-2.10.4.jar:na]
+	at scala.concurrent.Promise$class.complete(Promise.scala:55) [scala-library-2.10.4.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:153) [scala-library-2.10.4.jar:na]
+	at scala.concurrent.Future$$anonfun$flatMap$1.apply(Future.scala:249) [scala-library-2.10.4.jar:na]
+	at scala.concurrent.Future$$anonfun$flatMap$1.apply(Future.scala:249) [scala-library-2.10.4.jar:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [scala-library-2.10.4.jar:na]
+	at play.api.libs.iteratee.Execution$$anon$2.execute(Execution.scala:70) [play-iteratees_2.10.jar:2.2.3]
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:40) [scala-library-2.10.4.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:248) [scala-library-2.10.4.jar:na]
+	at scala.concurrent.Promise$class.complete(Promise.scala:55) [scala-library-2.10.4.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:153) [scala-library-2.10.4.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:23) [scala-library-2.10.4.jar:na]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:42) [akka-actor_2.10.jar:2.2.0]
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:386) [akka-actor_2.10.jar:2.2.0]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [scala-library-2.10.4.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) [scala-library-2.10.4.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) [scala-library-2.10.4.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) [scala-library-2.10.4.jar:na]
+Caused by: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'user_id' at row 1
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4206) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4140) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2597) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2758) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2826) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2082) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2334) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2262) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2246) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.jolbox.bonecp.PreparedStatementHandle.executeUpdate(PreparedStatementHandle.java:205) ~[bonecp.jar:na]
+	at scala.slick.driver.JdbcInvokerComponent$BaseInsertInvoker$$anonfun$internalInsert$1.apply(JdbcInvokerComponent.scala:115) ~[slick_2.10-2.0.2.jar:2.0.2]
+	at scala.slick.driver.JdbcInvokerComponent$BaseInsertInvoker$$anonfun$internalInsert$1.apply(JdbcInvokerComponent.scala:112) ~[slick_2.10-2.0.2.jar:2.0.2]
+	at scala.slick.jdbc.JdbcBackend$SessionDef$class.withPreparedStatement(JdbcBackend.scala:162) ~[slick_2.10-2.0.2.jar:2.0.2]
+	at scala.slick.jdbc.JdbcBackend$BaseSession.withPreparedStatement(JdbcBackend.scala:305) ~[slick_2.10-2.0.2.jar:2.0.2]
+	at scala.slick.driver.JdbcInvokerComponent$BaseInsertInvoker.prepared(JdbcInvokerComponent.scala:101) ~[slick_2.10-2.0.2.jar:2.0.2]
+	at scala.slick.driver.JdbcInvokerComponent$BaseInsertInvoker.internalInsert(JdbcInvokerComponent.scala:112) ~[slick_2.10-2.0.2.jar:2.0.2]
+	at scala.slick.driver.JdbcInvokerComponent$BaseInsertInvoker.insert(JdbcInvokerComponent.scala:104) ~[slick_2.10-2.0.2.jar:2.0.2]
+	at dao.SlickDao$$anonfun$insert$1.apply(SlickDao.scala:38) ~[classes/:na]
+	at dao.SlickDao$$anonfun$insert$1.apply(SlickDao.scala:37) ~[classes/:na]
+	at scala.slick.backend.DatabaseComponent$DatabaseDef$class.withSession(DatabaseComponent.scala:31) ~[slick_2.10-2.0.2.jar:2.0.2]
+	at scala.slick.jdbc.PlayDatabase.withSession(PlayDatabase.scala:6) ~[play-slick_2.10-0.6.1.jar:2.0.2]
+	at dao.SlickDao.insert(SlickDao.scala:37) ~[classes/:na]
+	at controllers.Application$$anonfun$post$1$$anonfun$apply$1$$anonfun$apply$2.apply(Application.scala:77) ~[classes/:na]
+	at controllers.Application$$anonfun$post$1$$anonfun$apply$1$$anonfun$apply$2.apply(Application.scala:73) ~[classes/:na]
+	at play.api.libs.json.JsResult$class.map(JsResult.scala:75) ~[play-json_2.10.jar:2.2.3]
+	at play.api.libs.json.JsSuccess.map(JsResult.scala:6) ~[play-json_2.10.jar:2.2.3]
+	at controllers.Application$$anonfun$post$1$$anonfun$apply$1.apply(Application.scala:73) ~[classes/:na]
+	at controllers.Application$$anonfun$post$1$$anonfun$apply$1.apply(Application.scala:72) ~[classes/:na]
+	at scala.Option.map(Option.scala:145) [scala-library-2.10.4.jar:na]
+	at controllers.Application$$anonfun$post$1.apply(Application.scala:72) ~[classes/:na]
+	at controllers.Application$$anonfun$post$1.apply(Application.scala:70) ~[classes/:na]
+	at play.api.mvc.ActionBuilder$$anonfun$apply$10.apply(Action.scala:221) ~[play_2.10.jar:2.2.3]
+	at play.api.mvc.ActionBuilder$$anonfun$apply$10.apply(Action.scala:220) ~[play_2.10.jar:2.2.3]
+	at play.api.mvc.Action$.invokeBlock(Action.scala:357) ~[play_2.10.jar:2.2.3]
+	at play.api.mvc.ActionBuilder$$anon$1.apply(Action.scala:309) ~[play_2.10.jar:2.2.3]
+	at play.api.mvc.Action$$anonfun$apply$1$$anonfun$apply$4$$anonfun$apply$5.apply(Action.scala:109) ~[play_2.10.jar:2.2.3]
+	at play.api.mvc.Action$$anonfun$apply$1$$anonfun$apply$4$$anonfun$apply$5.apply(Action.scala:109) ~[play_2.10.jar:2.2.3]
+	at play.utils.Threads$.withContextClassLoader(Threads.scala:18) ~[play_2.10.jar:2.2.3]
+	at play.api.mvc.Action$$anonfun$apply$1$$anonfun$apply$4.apply(Action.scala:108) ~[play_2.10.jar:2.2.3]
+	at play.api.mvc.Action$$anonfun$apply$1$$anonfun$apply$4.apply(Action.scala:107) ~[play_2.10.jar:2.2.3]
+	at scala.Option.map(Option.scala:145) [scala-library-2.10.4.jar:na]
+	at play.api.mvc.Action$$anonfun$apply$1.apply(Action.scala:107) ~[play_2.10.jar:2.2.3]
+	at play.api.mvc.Action$$anonfun$apply$1.apply(Action.scala:100) ~[play_2.10.jar:2.2.3]
+	at play.api.libs.iteratee.Iteratee$$anonfun$mapM$1.apply(Iteratee.scala:481) ~[play-iteratees_2.10.jar:2.2.3]
+	at play.api.libs.iteratee.Iteratee$$anonfun$mapM$1.apply(Iteratee.scala:481) ~[play-iteratees_2.10.jar:2.2.3]
+	at play.api.libs.iteratee.Iteratee$$anonfun$flatMapM$1.apply(Iteratee.scala:517) ~[play-iteratees_2.10.jar:2.2.3]
+	at play.api.libs.iteratee.Iteratee$$anonfun$flatMapM$1.apply(Iteratee.scala:517) ~[play-iteratees_2.10.jar:2.2.3]
+	at play.api.libs.iteratee.Iteratee$$anonfun$flatMap$1$$anonfun$apply$14.apply(Iteratee.scala:494) ~[play-iteratees_2.10.jar:2.2.3]
+	at play.api.libs.iteratee.Iteratee$$anonfun$flatMap$1$$anonfun$apply$14.apply(Iteratee.scala:494) ~[play-iteratees_2.10.jar:2.2.3]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) [scala-library-2.10.4.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) [scala-library-2.10.4.jar:na]
+	... 6 common frames omitted
+
+2014-10-12 01:17:46,886 - [INFO] - from play in play-internal-execution-context-1 
+database [default] connected at jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true
+
+2014-10-12 01:17:47,617 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2014-10-12 03:38:41,438 - [INFO] - from play in play-internal-execution-context-1 
+database [default] connected at jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true
+
+2014-10-12 03:38:42,156 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2014-10-12 07:10:59,878 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 10. Exception: java.net.UnknownHostException: us-cdbr-iron-east-01.cleardb.net: nodename nor servname provided, or not known.Message:Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+
+2014-10-12 07:11:01,112 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 9. Exception: java.net.UnknownHostException: us-cdbr-iron-east-01.cleardb.net.Message:Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+
+2014-10-12 07:11:02,122 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 8. Exception: java.net.UnknownHostException: us-cdbr-iron-east-01.cleardb.net.Message:Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+
+2014-10-12 07:11:03,131 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 7. Exception: java.net.UnknownHostException: us-cdbr-iron-east-01.cleardb.net.Message:Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+
+2014-10-12 07:11:04,142 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 6. Exception: java.net.UnknownHostException: us-cdbr-iron-east-01.cleardb.net.Message:Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+
+2014-10-12 07:11:05,152 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 5. Exception: java.net.UnknownHostException: us-cdbr-iron-east-01.cleardb.net.Message:Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+
+2014-10-12 07:11:06,160 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 4. Exception: java.net.UnknownHostException: us-cdbr-iron-east-01.cleardb.net.Message:Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+
+2014-10-12 07:11:07,170 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 3. Exception: java.net.UnknownHostException: us-cdbr-iron-east-01.cleardb.net.Message:Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+
+2014-10-12 07:11:08,180 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 2. Exception: java.net.UnknownHostException: us-cdbr-iron-east-01.cleardb.net.Message:Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+
+2014-10-12 07:11:09,187 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 1. Exception: java.net.UnknownHostException: us-cdbr-iron-east-01.cleardb.net.Message:Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+
+2014-10-12 07:11:10,192 - [ERROR] - from com.jolbox.bonecp.ConnectionHandle in BoneCP-pool-watch-thread 
+Database access problem. Killing off this connection and all remaining connections in the connection pool. SQL State = 08S01
+
+2014-10-12 07:11:10,510 - [ERROR] - from com.jolbox.bonecp.PoolWatchThread in BoneCP-pool-watch-thread 
+Error in trying to obtain a connection. Retrying in 1000ms
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.7.0_60]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526) ~[na:1.7.0_60]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:408) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1137) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:355) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2490) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2527) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2309) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:834) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46) ~[mysql-connector-java-5.1.32.jar:na]
+	at sun.reflect.GeneratedConstructorAccessor8.newInstance(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.7.0_60]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526) ~[na:1.7.0_60]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:408) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:419) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:344) ~[mysql-connector-java-5.1.32.jar:na]
+	at play.utils.ProxyDriver.connect(ProxyDriver.scala:9) ~[play_2.10.jar:2.2.3]
+	at java.sql.DriverManager.getConnection(DriverManager.java:571) ~[na:1.7.0_60]
+	at java.sql.DriverManager.getConnection(DriverManager.java:215) ~[na:1.7.0_60]
+	at com.jolbox.bonecp.BoneCP.obtainRawInternalConnection(BoneCP.java:363) ~[bonecp.jar:na]
+	at com.jolbox.bonecp.BoneCP.obtainInternalConnection(BoneCP.java:269) ~[bonecp.jar:na]
+	at com.jolbox.bonecp.ConnectionHandle.<init>(ConnectionHandle.java:242) ~[bonecp.jar:na]
+	at com.jolbox.bonecp.PoolWatchThread.fillConnections(PoolWatchThread.java:115) [bonecp.jar:na]
+	at com.jolbox.bonecp.PoolWatchThread.run(PoolWatchThread.java:82) [bonecp.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_60]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_60]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_60]
+Caused by: java.net.UnknownHostException: us-cdbr-iron-east-01.cleardb.net
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1250) ~[na:1.7.0_60]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1162) ~[na:1.7.0_60]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1098) ~[na:1.7.0_60]
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:250) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:305) ~[mysql-connector-java-5.1.32.jar:na]
+	... 22 common frames omitted
+
+2014-10-12 07:11:11,521 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 10. Exception: java.net.UnknownHostException: us-cdbr-iron-east-01.cleardb.net: nodename nor servname provided, or not known.Message:Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+
+2014-10-12 07:11:12,528 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 9. Exception: java.net.UnknownHostException: us-cdbr-iron-east-01.cleardb.net.Message:Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+
+2014-10-12 07:11:13,532 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 8. Exception: java.net.UnknownHostException: us-cdbr-iron-east-01.cleardb.net.Message:Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+
+2014-10-12 07:11:14,538 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 7. Exception: java.net.UnknownHostException: us-cdbr-iron-east-01.cleardb.net.Message:Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+
+2014-10-12 07:11:15,543 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 6. Exception: java.net.UnknownHostException: us-cdbr-iron-east-01.cleardb.net.Message:Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+
+2014-10-12 07:11:16,547 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 5. Exception: java.net.UnknownHostException: us-cdbr-iron-east-01.cleardb.net.Message:Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+
+2014-10-12 07:11:17,551 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 4. Exception: java.net.UnknownHostException: us-cdbr-iron-east-01.cleardb.net.Message:Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+
+2014-10-12 07:11:18,556 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 3. Exception: java.net.UnknownHostException: us-cdbr-iron-east-01.cleardb.net.Message:Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+
+2014-10-12 07:11:19,560 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 2. Exception: java.net.UnknownHostException: us-cdbr-iron-east-01.cleardb.net.Message:Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+
+2014-10-12 07:11:20,565 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 1. Exception: java.net.UnknownHostException: us-cdbr-iron-east-01.cleardb.net.Message:Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+
+2014-10-12 07:11:21,572 - [ERROR] - from com.jolbox.bonecp.PoolWatchThread in BoneCP-pool-watch-thread 
+Error in trying to obtain a connection. Retrying in 1000ms
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.7.0_60]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526) ~[na:1.7.0_60]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:408) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1137) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:355) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2490) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2527) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2309) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:834) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46) ~[mysql-connector-java-5.1.32.jar:na]
+	at sun.reflect.GeneratedConstructorAccessor8.newInstance(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.7.0_60]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526) ~[na:1.7.0_60]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:408) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:419) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:344) ~[mysql-connector-java-5.1.32.jar:na]
+	at play.utils.ProxyDriver.connect(ProxyDriver.scala:9) ~[play_2.10.jar:2.2.3]
+	at java.sql.DriverManager.getConnection(DriverManager.java:571) ~[na:1.7.0_60]
+	at java.sql.DriverManager.getConnection(DriverManager.java:215) ~[na:1.7.0_60]
+	at com.jolbox.bonecp.BoneCP.obtainRawInternalConnection(BoneCP.java:363) ~[bonecp.jar:na]
+	at com.jolbox.bonecp.BoneCP.obtainInternalConnection(BoneCP.java:269) ~[bonecp.jar:na]
+	at com.jolbox.bonecp.ConnectionHandle.<init>(ConnectionHandle.java:242) ~[bonecp.jar:na]
+	at com.jolbox.bonecp.PoolWatchThread.fillConnections(PoolWatchThread.java:115) [bonecp.jar:na]
+	at com.jolbox.bonecp.PoolWatchThread.run(PoolWatchThread.java:85) [bonecp.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_60]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_60]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_60]
+Caused by: java.net.UnknownHostException: us-cdbr-iron-east-01.cleardb.net
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1250) ~[na:1.7.0_60]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1162) ~[na:1.7.0_60]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1098) ~[na:1.7.0_60]
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:250) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:305) ~[mysql-connector-java-5.1.32.jar:na]
+	... 22 common frames omitted
+
+2014-10-12 07:44:38,118 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 10. Exception: java.net.UnknownHostException: us-cdbr-iron-east-01.cleardb.net: nodename nor servname provided, or not known.Message:Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+
+2014-10-12 07:44:39,173 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 9. Exception: java.net.UnknownHostException: us-cdbr-iron-east-01.cleardb.net.Message:Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+
+2014-10-12 07:44:40,177 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 8. Exception: java.net.UnknownHostException: us-cdbr-iron-east-01.cleardb.net.Message:Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+
+2014-10-12 07:44:41,180 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 7. Exception: java.net.UnknownHostException: us-cdbr-iron-east-01.cleardb.net.Message:Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+
+2014-10-12 07:44:42,184 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 6. Exception: java.net.UnknownHostException: us-cdbr-iron-east-01.cleardb.net.Message:Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+
+2014-10-12 07:44:43,186 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 5. Exception: java.net.UnknownHostException: us-cdbr-iron-east-01.cleardb.net.Message:Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+
+2014-10-12 07:44:44,190 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 4. Exception: java.net.UnknownHostException: us-cdbr-iron-east-01.cleardb.net.Message:Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+
+2014-10-12 07:44:45,193 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 3. Exception: java.net.UnknownHostException: us-cdbr-iron-east-01.cleardb.net.Message:Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+
+2014-10-12 07:44:46,197 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 2. Exception: java.net.UnknownHostException: us-cdbr-iron-east-01.cleardb.net.Message:Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+
+2014-10-12 07:44:47,200 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 1. Exception: java.net.UnknownHostException: us-cdbr-iron-east-01.cleardb.net.Message:Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+
+2014-10-12 07:44:48,203 - [ERROR] - from com.jolbox.bonecp.ConnectionHandle in BoneCP-pool-watch-thread 
+Database access problem. Killing off this connection and all remaining connections in the connection pool. SQL State = 08S01
+
+2014-10-12 07:44:48,303 - [ERROR] - from com.jolbox.bonecp.PoolWatchThread in BoneCP-pool-watch-thread 
+Error in trying to obtain a connection. Retrying in 1000ms
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.7.0_60]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526) ~[na:1.7.0_60]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:408) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1137) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:355) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2490) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2527) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2309) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:834) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46) ~[mysql-connector-java-5.1.32.jar:na]
+	at sun.reflect.GeneratedConstructorAccessor8.newInstance(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.7.0_60]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526) ~[na:1.7.0_60]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:408) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:419) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:344) ~[mysql-connector-java-5.1.32.jar:na]
+	at play.utils.ProxyDriver.connect(ProxyDriver.scala:9) ~[play_2.10.jar:2.2.3]
+	at java.sql.DriverManager.getConnection(DriverManager.java:571) ~[na:1.7.0_60]
+	at java.sql.DriverManager.getConnection(DriverManager.java:215) ~[na:1.7.0_60]
+	at com.jolbox.bonecp.BoneCP.obtainRawInternalConnection(BoneCP.java:363) ~[bonecp.jar:na]
+	at com.jolbox.bonecp.BoneCP.obtainInternalConnection(BoneCP.java:269) ~[bonecp.jar:na]
+	at com.jolbox.bonecp.ConnectionHandle.<init>(ConnectionHandle.java:242) ~[bonecp.jar:na]
+	at com.jolbox.bonecp.PoolWatchThread.fillConnections(PoolWatchThread.java:115) [bonecp.jar:na]
+	at com.jolbox.bonecp.PoolWatchThread.run(PoolWatchThread.java:82) [bonecp.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_60]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_60]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_60]
+Caused by: java.net.UnknownHostException: us-cdbr-iron-east-01.cleardb.net
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1250) ~[na:1.7.0_60]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1162) ~[na:1.7.0_60]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1098) ~[na:1.7.0_60]
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:250) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:305) ~[mysql-connector-java-5.1.32.jar:na]
+	... 22 common frames omitted
+
+2014-10-12 07:44:49,311 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 10. Exception: java.net.UnknownHostException: us-cdbr-iron-east-01.cleardb.net: nodename nor servname provided, or not known.Message:Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+
+2014-10-12 07:44:50,315 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 9. Exception: java.net.UnknownHostException: us-cdbr-iron-east-01.cleardb.net.Message:Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+
+2014-10-12 07:44:51,318 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 8. Exception: java.net.UnknownHostException: us-cdbr-iron-east-01.cleardb.net.Message:Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+
+2014-10-12 07:44:52,321 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 7. Exception: java.net.UnknownHostException: us-cdbr-iron-east-01.cleardb.net.Message:Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+
+2014-10-12 07:44:53,326 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 6. Exception: java.net.UnknownHostException: us-cdbr-iron-east-01.cleardb.net.Message:Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+
+2014-10-12 07:44:54,329 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 5. Exception: java.net.UnknownHostException: us-cdbr-iron-east-01.cleardb.net.Message:Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+
+2014-10-12 07:44:55,333 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 4. Exception: java.net.UnknownHostException: us-cdbr-iron-east-01.cleardb.net.Message:Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+
+2014-10-12 07:44:56,336 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 3. Exception: java.net.UnknownHostException: us-cdbr-iron-east-01.cleardb.net.Message:Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+
+2014-10-12 07:44:57,340 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 2. Exception: java.net.UnknownHostException: us-cdbr-iron-east-01.cleardb.net.Message:Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+
+2014-10-12 07:44:58,343 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in BoneCP-pool-watch-thread 
+Failed to acquire connection to jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_0a7bf84ba8ee4f9?reconnect=true Sleeping for 1000ms and trying again. Attempts left: 1. Exception: java.net.UnknownHostException: us-cdbr-iron-east-01.cleardb.net.Message:Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+
+2014-10-12 07:44:59,366 - [ERROR] - from com.jolbox.bonecp.PoolWatchThread in BoneCP-pool-watch-thread 
+Error in trying to obtain a connection. Retrying in 1000ms
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.7.0_60]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526) ~[na:1.7.0_60]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:408) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1137) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:355) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2490) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2527) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2309) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:834) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46) ~[mysql-connector-java-5.1.32.jar:na]
+	at sun.reflect.GeneratedConstructorAccessor8.newInstance(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.7.0_60]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526) ~[na:1.7.0_60]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:408) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:419) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:344) ~[mysql-connector-java-5.1.32.jar:na]
+	at play.utils.ProxyDriver.connect(ProxyDriver.scala:9) ~[play_2.10.jar:2.2.3]
+	at java.sql.DriverManager.getConnection(DriverManager.java:571) ~[na:1.7.0_60]
+	at java.sql.DriverManager.getConnection(DriverManager.java:215) ~[na:1.7.0_60]
+	at com.jolbox.bonecp.BoneCP.obtainRawInternalConnection(BoneCP.java:363) ~[bonecp.jar:na]
+	at com.jolbox.bonecp.BoneCP.obtainInternalConnection(BoneCP.java:269) ~[bonecp.jar:na]
+	at com.jolbox.bonecp.ConnectionHandle.<init>(ConnectionHandle.java:242) ~[bonecp.jar:na]
+	at com.jolbox.bonecp.PoolWatchThread.fillConnections(PoolWatchThread.java:115) [bonecp.jar:na]
+	at com.jolbox.bonecp.PoolWatchThread.run(PoolWatchThread.java:85) [bonecp.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_60]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_60]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_60]
+Caused by: java.net.UnknownHostException: us-cdbr-iron-east-01.cleardb.net
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1250) ~[na:1.7.0_60]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1162) ~[na:1.7.0_60]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1098) ~[na:1.7.0_60]
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:250) ~[mysql-connector-java-5.1.32.jar:na]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:305) ~[mysql-connector-java-5.1.32.jar:na]
+	... 22 common frames omitted
+
